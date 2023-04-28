@@ -89,11 +89,11 @@ namespace lab10
 
             if (a.IsPrime())
             {
-                Console.WriteLine("Число {0} є простим.", a);
+                Console.WriteLine($"Число {a} є простим.");
             }
             else
             {
-                Console.WriteLine("Число {0} не є простим.", a);
+                Console.WriteLine($"Число {a} не є простим.");
             }
             Console.WriteLine();
 
